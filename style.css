@@ -1,0 +1,76 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    color: white;
+}
+
+
+/* *********************************** */
+/* Flaots */
+
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+
+
+/* *********************************** */
+/* Nav */
+
+nav{
+    background: rgb(39, 39, 39);
+    height: auto;
+
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background:rgb(20, 20, 20);
+}
+
+
+/* *********************************** */
+/* Main */
+
+main{
+    height: 100vh;
+
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5) ) ,url(./img/best-free-coding-courses-classes-tutorials-certification-training-online.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position: relative;
+    line-height: 90vh;
+
+
+
+}
+
+h1{
+    text-align: center;
+    height: 100%;
+
+
+}
