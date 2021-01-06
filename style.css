@@ -8,9 +8,15 @@
 }
 
 html{
+    background: rgb(49, 49, 49);
     color: white;
+
 }
 
+h1{
+    color: white;
+
+}
 
 /* *********************************** */
 /* Flaots */
@@ -28,7 +34,7 @@ html{
 /* *********************************** */
 /* Nav */
 
-nav{
+ul{
     background: rgb(39, 39, 39);
     height: auto;
 
@@ -54,15 +60,15 @@ a:hover{
 /* Main */
 
 main{
-    height: 100vh;
+    height: 90vh;
 
-    background: linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5) ) ,url(./img/best-free-coding-courses-classes-tutorials-certification-training-online.jpeg);
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5) ) ,url(./img/best-free-coding-courses-classes-tutorials-certification-training-online.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
     position: relative;
-    line-height: 90vh;
+    line-height: 80vh;
 
 
 
@@ -73,4 +79,42 @@ h1{
     height: 100%;
 
 
+}
+
+
+
+/* *********************************** */
+/* Link Nav */
+
+.link-nav{
+    position: sticky;
+    top: 0;
+}
+
+
+/* *********************************** */
+/* Section One */
+section h2{
+    margin-top: 40px;;
+}
+section p{
+    margin-top: 20px;;
+    margin-left: 20px;
+}
+
+section{
+    text-align: center;
+}
+
+section img{
+    width: auto;
+    height: 250px;
+    margin: 20px;
+}
+
+
+
+hr{
+    width: 70%;
+    margin: 50px auto;
 }
