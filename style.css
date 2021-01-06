@@ -47,7 +47,7 @@ h1{
     letter-spacing: .3em;
 
     animation-name: spacing;
-    animation-duration: 1s;
+    animation-duration: 2s;
 
     
 }
@@ -165,3 +165,31 @@ hr{
     width: 70%;
     margin: 50px auto;
 }
+
+
+/* *********************************** */
+/* Form */
+
+
+form{
+    width: 30%;
+    margin: 50px auto;
+}
+label{
+    display: inline-block;
+}
+input{
+    display: block;
+    width:100%;
+    margin: 10px auto;
+}
+input[type="radio"]{
+    display: inline-block;
+    width:0;
+    margin-right: 50px;
+    margin-top: 10px;
+    
+
+}
+
+

@@ -12,14 +12,14 @@
                     <li><a href="#">Home</a> </li>
                     <li><a href="#">About</a> </li>
                     <li><a href="#">Info</a></li>
-                    <li class="float-right"><a href="#">Sign In</a></li>
+                    <li class="float-right"><a href="#sigh-up">Sign In</a></li>
                 </ul>
             </nav>
 
         </header>
 
         <main>
-            <h1>Accessibility & Accessibility</h1>
+            <h1>Accessibility & Responsive Webpage</h1>
 
 
 
@@ -115,12 +115,34 @@
 
         <hr>
 
-        <form>
+        <section>
+            <article>
+                <h2>Form, Fieldset & Legend</h2>
+                <p>The fieldset element is used to group related data in a form.</p>
+                <p>The legend element defines a caption of teh fieldset element</p>
 
 
+            </article>
+          
+        </section>
 
-            
+        <form id="sigh-up">
+            <fieldset>
+                <legend>Sign In Information</legend>
+                <label for="e-mail">E-Mail</label>
+                <input type="email" id="e-mail" name="user-info">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user-info">
+            </fieldset>
+            <fieldset>
+                <legend>Will You Be Using Accessibility Elements?</legend>
+                <label for="yes">Yes</label>
+                <input type="radio" name="yes-no" id="yes">
+                <label for="no">No</label>
+                <input type="radio" name="yes-no" id="no">
+            </fieldset>
         </form>
+
 
 
 
@@ -129,6 +151,7 @@
 
         
         <footer>
+
 
 
 
