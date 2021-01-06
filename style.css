@@ -13,10 +13,56 @@ html{
 
 }
 
-h1{
-    color: white;
+.highlight{
+    background: rgba(255, 255, 0, 0.233);
+    display: inline-block;
+    width:fit-content;
+    padding: 3px;
+
+    animation-name: jump;
+    animation-duration:1.35s;
+    animation-iteration-count: infinite;
+    position: relative;
 
 }
+
+@keyframes jump{
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 3px;
+
+    }
+
+    100%{
+        bottom: 0px;
+    }
+}
+
+
+
+h1{
+    color: white;
+    letter-spacing: .3em;
+
+    animation-name: spacing;
+    animation-duration: 1s;
+
+    
+}
+
+@keyframes spacing{
+    0%{
+        opacity: 0;
+        transform: scale(.9);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 
 /* *********************************** */
 /* Flaots */
@@ -68,7 +114,7 @@ main{
     background-size: cover;
 
     position: relative;
-    line-height: 80vh;
+    line-height: 85vh;
 
 
 
@@ -89,6 +135,7 @@ h1{
 .link-nav{
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 
